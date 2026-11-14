@@ -1,0 +1,74 @@
+{
+    "lifetime":
+    {
+        "min": 0.81,
+        "max": 0.81
+    },
+    "frequency": 0.001,
+    "emitterLifetime": 0.001,
+    "maxParticles": 0,
+    "addAtBack": false,
+    "pos":
+    {
+        "x": 0,
+        "y": 0
+    },
+    "behaviors":
+    [
+        {
+            "type": "alphaStatic",
+            "config":
+            {
+                "alpha": 0.9
+            }
+        },
+        {
+            "type": "moveSpeedStatic",
+            "config":
+            {
+                "min": 1600,
+                "max": 1800
+            }
+        },
+        {
+            "type": "scaleStatic",
+            "config":
+            {
+                "min": 0.25,
+                "max": 0.3
+            }
+        },
+        {
+            "type": "rotationStatic",
+            "config":
+            {
+                "min": 85,
+                "max": 95
+            }
+        },
+        {
+            "type": "textureRandom",
+            "config":
+            {
+                "textures":
+                [
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAA="
+                ]
+            }
+        },
+        {
+            "type": "spawnShape",
+            "config":
+            {
+                "type": "rect",
+                "data":
+                {
+                    "x": -50,
+                    "y": -100,
+                    "w": 900,
+                    "h": 20
+                }
+            }
+        }
+    ]
+}
